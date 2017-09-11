@@ -1,0 +1,48 @@
+body {
+	margin: 0px;
+}
+
+h1 {
+	text-align:center;
+}
+.box {
+  min-height: 100vh;
+  width: 10vw;
+  display: inline-block;
+  position: relative;
+}
+
+.lightblue {
+	background-color: #78c5d6;
+}
+.blue {
+	background-color: #459ba8;
+}
+.green{
+	background-color: #79c267;
+}
+.lightgreen{
+	background-color: #c5d647;
+}
+.yellow{
+	background-color: #f5d63d;
+}
+.orange{
+	background-color: #f28c33;
+}
+.pink{
+	background-color: #e868a2;
+}
+.purple{
+	background-color: #bf62a6;
+}
+
+.white {
+	  background-color: #fff;
+	  min-height:10px;
+}
+
+
+
+
+
