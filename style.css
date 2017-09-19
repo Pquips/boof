@@ -1,15 +1,40 @@
 body {
-	margin: 0px;
+	margin:auto;
+	background-image:url(giphy.gif);
 }
 
 h1 {
 	text-align:center;
 }
+
 .box {
   min-height: 100vh;
-  width: 10vw;
-  display: inline-block;
+  width:12%;
+  display: inline-table;
   position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+  border-radius: 5px;
+}
+
+
+
+@media screen and (max-width: 1090px) {
+.box {
+	min-height: 50vh;
+	width: 22.5vw;
+	display: inline-table;
+	position: relative;
+	}
+}
+
+@media screen and (max-width: 330px) {
+.box {
+	min-height: 30vh;
+	width: 90vw;
+	display: inline-table;
+	position: relative;
+	}
 }
 
 .lightblue {
@@ -41,6 +66,9 @@ h1 {
 	  background-color: #fff;
 	  min-height:10px;
 }
+
+
+
 
 
 
